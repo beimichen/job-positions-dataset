@@ -12,7 +12,7 @@ title normalization, autocomplete, and NLP experiments.
 
 | File | Rows / entries | Description |
 |------|----------------|-------------|
-| `positions.json` | **3,627 positions** | Per-position content keyed by title. Each entry has `body`, `intro`, `outro`, `parent_industry`, `sub_industry` — including ready-made cover-letter sentence templates. |
+| `positions.json` | **3,627 positions** | Per-position content keyed by title. Each entry has `body`, `intro`, `outro`, `parent_industry`, `sub_industry` - including ready-made cover-letter sentence templates. |
 | `industries.json` | **30 industries** | Industry → sub-industry taxonomy. |
 | `positions_lookup.csv` | ~22.9k | Flat position lookup list (good for autocomplete). |
 | `job_titles_matched.csv` | ~79.3k | Raw job titles matched to canonical positions. |
@@ -53,5 +53,5 @@ pip install -r requirements.txt
 
 ## License
 
-MIT — see [LICENSE](LICENSE). The dataset is provided as-is; verify suitability
+MIT - see [LICENSE](LICENSE). The dataset is provided as-is; verify suitability
 before using generated text in production applications.
